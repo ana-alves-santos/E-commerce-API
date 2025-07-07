@@ -1,7 +1,5 @@
 # 🛒 E-commerce API – Study Project with Flask
 
-> ℹ️ This project comes with a pre-filled database containing a **user, product, and cart**, ideal for quick testing with Postman or Insomnia.
-
 ---
 
 ## 📋 Description
@@ -31,39 +29,12 @@ E-commerce API developed with Flask as a study project. Allows user login, produ
 
 ---
 
-## 🧾 Example Database (`ecommerce.db`)
-
-This project includes a pre-populated SQLite database with the following data to facilitate testing:
-
-### 👤 Test User:
-
-| Field    | Value    |
-|----------|----------|
-| username | `admin`  |
-| password | `123`    |
-
----
-
-### 📦 Registered Product:
-
-| ID | Name | Price | Description     |
-|----|------|-------|-----------------|
-| 2  | TV   | 1000  | 4K Smart TV     |
-
----
-
-### 🛒 Initial Cart:
-
-- The product “TV” is already added to the `admin` user's cart.
-
----
-
 ## 🛠 Technologies Used
 
-- **Python 3**  
-- **Flask**  
-- **Flask-Login**  
-- **Flask-CORS**  
-- **SQLAlchemy**  
-- **SQLite**  
-- **Swagger (YAML)**  
+- Python 
+- Flask
+- Flask-Login
+- SQLAlchemy
+- SQLite
+- Postman (for testing)
+- Swagger (YAML)
