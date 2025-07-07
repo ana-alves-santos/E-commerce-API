@@ -1,4 +1,4 @@
-# Importação
+
 from flask import Flask, request , jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
@@ -15,7 +15,7 @@ login_manager.login_view = 'login'
 CORS(app)
 
 
-# Modelagem
+
 # User (id, username, password)
 class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
@@ -38,7 +38,7 @@ class CartItem(db.Model):
 
 
 
-# Autenticação
+
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(int(user_id))
