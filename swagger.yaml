@@ -232,3 +232,4 @@ definitions:
         type: integer
       product_id:
         type: integer
+
