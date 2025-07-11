@@ -38,3 +38,6 @@ E-commerce API developed with Flask as a study project. Allows user login, produ
 - SQLite
 - Postman (for testing)
 - Swagger (YAML)
+
+
+This project was developed during a Rocketseat course.
